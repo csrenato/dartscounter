@@ -207,8 +207,8 @@ void loading1(){
 	
 	//TURN OFF ALL LEDS
 	clearLEDs();
-    leds.setPixelColor(0, BLACK);
-    leds.setPixelColor(1, BLACK);
+    	leds.setPixelColor(0, BLACK);
+    	leds.setPixelColor(1, BLACK);
 	leds.setPixelColor(2, BLACK);
 	leds.show();
 	
@@ -1254,4 +1254,36 @@ while (true){
  	} // while (true)
 } // void loop
 
+
+-> Game start -> Player 1
+//		Player 1
+// 		Player 2
+// 	 _       _       _   _       
+// 	∣_∣ ∣   ∣_∣ ∣_∣ ∣_  ∣_∣       ∣
+// 	∣   ∣_  ∣ ∣   ∣ ∣_  ∣ ∣       ∣
+// 	 _       _       _   _       _ 
+// 	∣_∣ ∣   ∣_∣ ∣_∣ ∣_  ∣_∣      _∣
+// 	∣   ∣_  ∣ ∣   ∣ ∣_  ∣ ∣     ∣_
+// 									        
+//
+// 	-> Score -> 501 Game:
+//
+// 	L-00 501
+// 	L-00 501
+
+//	         _               _   _
+// 	∣    _  ∣ ∣   ∣     ∣_∣ ∣ ∣  _∣
+// 	∣_      ∣_∣   ∣       ∣ ∣_∣  _∣
+	
+//	         _   _       _   _    
+// 	∣    _  ∣ ∣  _∣     ∣_  ∣ ∣   ∣
+// 	∣_      ∣_∣  _∣      _∣ ∣_∣   ∣
+	
+// 	Cricket:
+//
+// 	20  19  18  17  	Score
+// 	 _   _   _   _           _   _
+// 	∣ ∣ ∣   ∣ ∣ ∣ ∣     ∣_∣ ∣ ∣  _∣
+// 	∣   ∣_  ∣_∣           ∣ ∣_∣  _∣
+// 	16  15  BULL
 //********** '01 Double Out **********//
