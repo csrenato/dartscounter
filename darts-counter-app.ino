@@ -1,9 +1,8 @@
-#
-include "Adafruit_NeoPixel.h"#
-include "WS2812_Definitions.h"#
-include "LedControlMS.h"#
-include "mpr121.h"#
-include "i2c.h"
+#include "Adafruit_NeoPixel.h"
+#include "WS2812_Definitions.h"
+#include "LedControlMS.h"
+#include "mpr121.h"
+#include "i2c.h"
 
 //12 DIN // 11 CLK // 10 CS on display
 
