@@ -14,9 +14,8 @@ unsigned long delaytime = 250; // we always wait a bit between updates of the di
 
 // Keypad type definition - Keypad Mapping
 
-#
-define MPR121_R 0xB5 // ADD pin is grounded
-# define MPR121_W 0xB4 // So address is 0x5A
+#define MPR121_R 0xB5 // ADD pin is grounded
+#define MPR121_W 0xB4 // So address is 0x5A
 
 // Match key inputs with electrode numbers
 #define STAR 0
